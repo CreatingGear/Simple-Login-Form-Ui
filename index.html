@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Ui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+function massage() {
+    alert("follow us for more");
+}
+function redirect() {
+    window.open('https://www.you.com/code', '_blank');
+}
+</script>
+<body>
+
+    <div class="login_ui">
+        <button id="" class="back_icon" onclick="redirect();"><ion-icon name="chevron-back-outline"></ion-icon>back</button>
+        <div class="login_font">
+            <h1>LOG IN</h1>
+        </div>
+    <div class="form">
+        <form action="">
+            <input type="email" class="form_1"  placeholder="EMAIL" style="color: white; font-size: 20px; background: transparent; border: none;
+            outline:none;border-bottom:  solid 2px white;width: 300px;padding:15px;margin-left: 30px;text-align: center;">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="password" class="form_1"  placeholder="PASSWORD" style="color: white; font-size: 20px; background: transparent; border: none;
+            outline:none;border-bottom:  solid 2px white;width: 300px;padding:15px;margin-left: 30px;text-align: center;">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+        </form>
+        <div class="checkbox">
+            <input type="checkbox" id="remember" >
+            <label for="remember"> Always Remember me</label>
+        </div>
+    </div>
+    <button class="signin" onclick="massage();">Sign In</button>
+    <div class="additional_text">
+        <p>Dont have and account <a href="" style="text-decoration: none;">SIGN UP</a></p>
+    </div>
+    <a href="" style="text-decoration: none;font-family: myfont;margin-left: 125px">forgot password</a>
+    </div>
+    </div>
+</body>
+</html>
